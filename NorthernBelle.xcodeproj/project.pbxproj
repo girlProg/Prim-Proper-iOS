@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08184FF4181F199E00C8E85D /* hair-salon-admin.png in Resources */ = {isa = PBXBuildFile; fileRef = 08184FF3181F199E00C8E85D /* hair-salon-admin.png */; };
+		08306218181DEC97007BF018 /* Screen Shot 2013-10-28 at 00.50.12.png in Resources */ = {isa = PBXBuildFile; fileRef = 08306217181DEC97007BF018 /* Screen Shot 2013-10-28 at 00.50.12.png */; };
+		08306221181DF14D007BF018 /* afro-woman-face-200x300.png in Resources */ = {isa = PBXBuildFile; fileRef = 08306219181DF14D007BF018 /* afro-woman-face-200x300.png */; };
+		08306222181DF14D007BF018 /* Age-Child-Female-Dark-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0830621A181DF14D007BF018 /* Age-Child-Female-Dark-icon.png */; };
+		08306223181DF14D007BF018 /* benefits-of-massage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0830621B181DF14D007BF018 /* benefits-of-massage.png */; };
+		08306224181DF14D007BF018 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0830621C181DF14D007BF018 /* calendar.png */; };
+		08306225181DF14D007BF018 /* location_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0830621D181DF14D007BF018 /* location_icon.png */; };
+		08306226181DF14D007BF018 /* massage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0830621E181DF14D007BF018 /* massage.png */; };
+		08306227181DF14D007BF018 /* relax-massage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0830621F181DF14D007BF018 /* relax-massage.png */; };
+		08306228181DF14D007BF018 /* spa_and_wellness.png in Resources */ = {isa = PBXBuildFile; fileRef = 08306220181DF14D007BF018 /* spa_and_wellness.png */; };
+		08508DF31814C531005502B7 /* SelectServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08508DF21814C531005502B7 /* SelectServiceViewController.m */; };
+		08706FF817ECBAE500E8FA39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08706FF717ECBAE500E8FA39 /* Foundation.framework */; };
+		08706FFA17ECBAE500E8FA39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08706FF917ECBAE500E8FA39 /* CoreGraphics.framework */; };
+		08706FFC17ECBAE500E8FA39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08706FFB17ECBAE500E8FA39 /* UIKit.framework */; };
+		0870700217ECBAE500E8FA39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0870700017ECBAE500E8FA39 /* InfoPlist.strings */; };
+		0870700417ECBAE500E8FA39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870700317ECBAE500E8FA39 /* main.m */; };
+		0870700817ECBAE500E8FA39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870700717ECBAE500E8FA39 /* AppDelegate.m */; };
+		0870700B17ECBAE500E8FA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0870700917ECBAE500E8FA39 /* Main.storyboard */; };
+		0870700E17ECBAE500E8FA39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870700D17ECBAE500E8FA39 /* ViewController.m */; };
+		0870701017ECBAE500E8FA39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0870700F17ECBAE500E8FA39 /* Images.xcassets */; };
+		0870701717ECBAE500E8FA39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0870701617ECBAE500E8FA39 /* XCTest.framework */; };
+		0870701817ECBAE500E8FA39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08706FF717ECBAE500E8FA39 /* Foundation.framework */; };
+		0870701917ECBAE500E8FA39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08706FFB17ECBAE500E8FA39 /* UIKit.framework */; };
+		0870702117ECBAE500E8FA39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0870701F17ECBAE500E8FA39 /* InfoPlist.strings */; };
+		0870702317ECBAE500E8FA39 /* NorthernBelleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870702217ECBAE500E8FA39 /* NorthernBelleTests.m */; };
+		0870703017ECBF2C00E8FA39 /* 10-nail-polish-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0870702E17ECBF2C00E8FA39 /* 10-nail-polish-icon.png */; };
+		0870703117ECBF2C00E8FA39 /* afro-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 0870702F17ECBF2C00E8FA39 /* afro-md.png */; };
+		0870703317ECC08000E8FA39 /* waves.png in Resources */ = {isa = PBXBuildFile; fileRef = 0870703217ECC08000E8FA39 /* waves.png */; };
+		0870703517ECC22600E8FA39 /* sexy-legs-psd51286.png in Resources */ = {isa = PBXBuildFile; fileRef = 0870703417ECC22600E8FA39 /* sexy-legs-psd51286.png */; };
+		0870703717ECC32C00E8FA39 /* henna_design_2_by_twist_of_fate_16-d4y4v42.png in Resources */ = {isa = PBXBuildFile; fileRef = 0870703617ECC32C00E8FA39 /* henna_design_2_by_twist_of_fate_16-d4y4v42.png */; };
+		088D7B8E1818A71A00D004A1 /* HairServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D7B8D1818A71A00D004A1 /* HairServiceController.m */; };
+		08A02F0117F279ED0023644E /* NBTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A02F0017F279ED0023644E /* NBTViewController.m */; };
+		08A02F0317F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A02F0217F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png */; };
+		08A02F0617F3B3D30023644E /* AdminLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A02F0517F3B3D30023644E /* AdminLoginViewController.m */; };
+		08A02F0917F3B4530023644E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A02F0817F3B4530023644E /* Model.m */; };
+		08A02F0C17F3C4090023644E /* BookingsTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A02F0B17F3C4090023644E /* BookingsTViewController.m */; };
+		08B7247D181493D400820E0F /* MYJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B7247C181493D400820E0F /* MYJSONSerializer.m */; };
+		08DBF2451817681A003826BD /* SingleBookingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DBF2441817681A003826BD /* SingleBookingController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0870701A17ECBAE500E8FA39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08706FEC17ECBAE500E8FA39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08706FF317ECBAE500E8FA39;
+			remoteInfo = NorthernBelle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08184FF3181F199E00C8E85D /* hair-salon-admin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hair-salon-admin.png"; path = "images/hair-salon-admin.png"; sourceTree = "<group>"; };
+		08306217181DEC97007BF018 /* Screen Shot 2013-10-28 at 00.50.12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2013-10-28 at 00.50.12.png"; path = "images/Screen Shot 2013-10-28 at 00.50.12.png"; sourceTree = "<group>"; };
+		08306219181DF14D007BF018 /* afro-woman-face-200x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "afro-woman-face-200x300.png"; path = "images/afro-woman-face-200x300.png"; sourceTree = "<group>"; };
+		0830621A181DF14D007BF018 /* Age-Child-Female-Dark-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Age-Child-Female-Dark-icon.png"; path = "images/Age-Child-Female-Dark-icon.png"; sourceTree = "<group>"; };
+		0830621B181DF14D007BF018 /* benefits-of-massage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "benefits-of-massage.png"; path = "images/benefits-of-massage.png"; sourceTree = "<group>"; };
+		0830621C181DF14D007BF018 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = images/calendar.png; sourceTree = "<group>"; };
+		0830621D181DF14D007BF018 /* location_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location_icon.png; path = images/location_icon.png; sourceTree = "<group>"; };
+		0830621E181DF14D007BF018 /* massage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = massage.png; path = images/massage.png; sourceTree = "<group>"; };
+		0830621F181DF14D007BF018 /* relax-massage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "relax-massage.png"; path = "images/relax-massage.png"; sourceTree = "<group>"; };
+		08306220181DF14D007BF018 /* spa_and_wellness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spa_and_wellness.png; path = images/spa_and_wellness.png; sourceTree = "<group>"; };
+		08508DF11814C531005502B7 /* SelectServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectServiceViewController.h; sourceTree = "<group>"; };
+		08508DF21814C531005502B7 /* SelectServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectServiceViewController.m; sourceTree = "<group>"; };
+		08706FF417ECBAE500E8FA39 /* NorthernBelle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorthernBelle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08706FF717ECBAE500E8FA39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08706FF917ECBAE500E8FA39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08706FFB17ECBAE500E8FA39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08706FFF17ECBAE500E8FA39 /* NorthernBelle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NorthernBelle-Info.plist"; sourceTree = "<group>"; };
+		0870700117ECBAE500E8FA39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0870700317ECBAE500E8FA39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0870700517ECBAE500E8FA39 /* NorthernBelle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NorthernBelle-Prefix.pch"; sourceTree = "<group>"; };
+		0870700617ECBAE500E8FA39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0870700717ECBAE500E8FA39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0870700A17ECBAE500E8FA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0870700C17ECBAE500E8FA39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0870700D17ECBAE500E8FA39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0870700F17ECBAE500E8FA39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0870701517ECBAE500E8FA39 /* NorthernBelleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorthernBelleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0870701617ECBAE500E8FA39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0870701E17ECBAE500E8FA39 /* NorthernBelleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NorthernBelleTests-Info.plist"; sourceTree = "<group>"; };
+		0870702017ECBAE500E8FA39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0870702217ECBAE500E8FA39 /* NorthernBelleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NorthernBelleTests.m; sourceTree = "<group>"; };
+		0870702E17ECBF2C00E8FA39 /* 10-nail-polish-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "10-nail-polish-icon.png"; path = "images/10-nail-polish-icon.png"; sourceTree = "<group>"; };
+		0870702F17ECBF2C00E8FA39 /* afro-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "afro-md.png"; path = "images/afro-md.png"; sourceTree = "<group>"; };
+		0870703217ECC08000E8FA39 /* waves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = waves.png; path = images/waves.png; sourceTree = "<group>"; };
+		0870703417ECC22600E8FA39 /* sexy-legs-psd51286.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sexy-legs-psd51286.png"; path = "images/sexy-legs-psd51286.png"; sourceTree = "<group>"; };
+		0870703617ECC32C00E8FA39 /* henna_design_2_by_twist_of_fate_16-d4y4v42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "henna_design_2_by_twist_of_fate_16-d4y4v42.png"; path = "images/henna_design_2_by_twist_of_fate_16-d4y4v42.png"; sourceTree = "<group>"; };
+		088D7B8C1818A71A00D004A1 /* HairServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HairServiceController.h; sourceTree = "<group>"; };
+		088D7B8D1818A71A00D004A1 /* HairServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HairServiceController.m; sourceTree = "<group>"; };
+		08A02EFF17F279ED0023644E /* NBTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NBTViewController.h; path = ../NBTViewController.h; sourceTree = "<group>"; };
+		08A02F0017F279ED0023644E /* NBTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NBTViewController.m; path = ../NBTViewController.m; sourceTree = "<group>"; };
+		08A02F0217F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2013-09-13 at 02.57.13.png"; path = "images/Screen Shot 2013-09-13 at 02.57.13.png"; sourceTree = "<group>"; };
+		08A02F0417F3B3D30023644E /* AdminLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminLoginViewController.h; sourceTree = "<group>"; };
+		08A02F0517F3B3D30023644E /* AdminLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminLoginViewController.m; sourceTree = "<group>"; };
+		08A02F0717F3B4530023644E /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		08A02F0817F3B4530023644E /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		08A02F0A17F3C4090023644E /* BookingsTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingsTViewController.h; sourceTree = "<group>"; };
+		08A02F0B17F3C4090023644E /* BookingsTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingsTViewController.m; sourceTree = "<group>"; };
+		08B7247B181493D400820E0F /* MYJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYJSONSerializer.h; sourceTree = "<group>"; };
+		08B7247C181493D400820E0F /* MYJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYJSONSerializer.m; sourceTree = "<group>"; };
+		08DBF2431817681A003826BD /* SingleBookingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleBookingController.h; sourceTree = "<group>"; };
+		08DBF2441817681A003826BD /* SingleBookingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleBookingController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08706FF117ECBAE500E8FA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08706FFA17ECBAE500E8FA39 /* CoreGraphics.framework in Frameworks */,
+				08706FFC17ECBAE500E8FA39 /* UIKit.framework in Frameworks */,
+				08706FF817ECBAE500E8FA39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0870701217ECBAE500E8FA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0870701717ECBAE500E8FA39 /* XCTest.framework in Frameworks */,
+				0870701917ECBAE500E8FA39 /* UIKit.framework in Frameworks */,
+				0870701817ECBAE500E8FA39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08706FEB17ECBAE500E8FA39 = {
+			isa = PBXGroup;
+			children = (
+				08706FFD17ECBAE500E8FA39 /* NorthernBelle */,
+				0870701C17ECBAE500E8FA39 /* NorthernBelleTests */,
+				08706FF617ECBAE500E8FA39 /* Frameworks */,
+				08706FF517ECBAE500E8FA39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08706FF517ECBAE500E8FA39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08706FF417ECBAE500E8FA39 /* NorthernBelle.app */,
+				0870701517ECBAE500E8FA39 /* NorthernBelleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08706FF617ECBAE500E8FA39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08706FF717ECBAE500E8FA39 /* Foundation.framework */,
+				08706FF917ECBAE500E8FA39 /* CoreGraphics.framework */,
+				08706FFB17ECBAE500E8FA39 /* UIKit.framework */,
+				0870701617ECBAE500E8FA39 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08706FFD17ECBAE500E8FA39 /* NorthernBelle */ = {
+			isa = PBXGroup;
+			children = (
+				088D7B8C1818A71A00D004A1 /* HairServiceController.h */,
+				088D7B8D1818A71A00D004A1 /* HairServiceController.m */,
+				08A02F0A17F3C4090023644E /* BookingsTViewController.h */,
+				08A02F0B17F3C4090023644E /* BookingsTViewController.m */,
+				08A02EFF17F279ED0023644E /* NBTViewController.h */,
+				08A02F0017F279ED0023644E /* NBTViewController.m */,
+				0870700617ECBAE500E8FA39 /* AppDelegate.h */,
+				0870700717ECBAE500E8FA39 /* AppDelegate.m */,
+				0870700917ECBAE500E8FA39 /* Main.storyboard */,
+				08184FF3181F199E00C8E85D /* hair-salon-admin.png */,
+				08A02F0417F3B3D30023644E /* AdminLoginViewController.h */,
+				08A02F0517F3B3D30023644E /* AdminLoginViewController.m */,
+				08A02F0717F3B4530023644E /* Model.h */,
+				08A02F0817F3B4530023644E /* Model.m */,
+				0870700C17ECBAE500E8FA39 /* ViewController.h */,
+				0870700D17ECBAE500E8FA39 /* ViewController.m */,
+				0870700F17ECBAE500E8FA39 /* Images.xcassets */,
+				08706FFE17ECBAE500E8FA39 /* Supporting Files */,
+				08B7247B181493D400820E0F /* MYJSONSerializer.h */,
+				08B7247C181493D400820E0F /* MYJSONSerializer.m */,
+				08508DF11814C531005502B7 /* SelectServiceViewController.h */,
+				08508DF21814C531005502B7 /* SelectServiceViewController.m */,
+				08DBF2431817681A003826BD /* SingleBookingController.h */,
+				08DBF2441817681A003826BD /* SingleBookingController.m */,
+			);
+			path = NorthernBelle;
+			sourceTree = "<group>";
+		};
+		08706FFE17ECBAE500E8FA39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A02F0217F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png */,
+				08306219181DF14D007BF018 /* afro-woman-face-200x300.png */,
+				0830621A181DF14D007BF018 /* Age-Child-Female-Dark-icon.png */,
+				0830621B181DF14D007BF018 /* benefits-of-massage.png */,
+				0830621C181DF14D007BF018 /* calendar.png */,
+				0830621D181DF14D007BF018 /* location_icon.png */,
+				0830621E181DF14D007BF018 /* massage.png */,
+				0830621F181DF14D007BF018 /* relax-massage.png */,
+				08306220181DF14D007BF018 /* spa_and_wellness.png */,
+				08306217181DEC97007BF018 /* Screen Shot 2013-10-28 at 00.50.12.png */,
+				0870703617ECC32C00E8FA39 /* henna_design_2_by_twist_of_fate_16-d4y4v42.png */,
+				0870703417ECC22600E8FA39 /* sexy-legs-psd51286.png */,
+				0870703217ECC08000E8FA39 /* waves.png */,
+				0870702E17ECBF2C00E8FA39 /* 10-nail-polish-icon.png */,
+				0870702F17ECBF2C00E8FA39 /* afro-md.png */,
+				08706FFF17ECBAE500E8FA39 /* NorthernBelle-Info.plist */,
+				0870700017ECBAE500E8FA39 /* InfoPlist.strings */,
+				0870700317ECBAE500E8FA39 /* main.m */,
+				0870700517ECBAE500E8FA39 /* NorthernBelle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0870701C17ECBAE500E8FA39 /* NorthernBelleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0870702217ECBAE500E8FA39 /* NorthernBelleTests.m */,
+				0870701D17ECBAE500E8FA39 /* Supporting Files */,
+			);
+			path = NorthernBelleTests;
+			sourceTree = "<group>";
+		};
+		0870701D17ECBAE500E8FA39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0870701E17ECBAE500E8FA39 /* NorthernBelleTests-Info.plist */,
+				0870701F17ECBAE500E8FA39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08706FF317ECBAE500E8FA39 /* NorthernBelle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0870702617ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "NorthernBelle" */;
+			buildPhases = (
+				08706FF017ECBAE500E8FA39 /* Sources */,
+				08706FF117ECBAE500E8FA39 /* Frameworks */,
+				08706FF217ECBAE500E8FA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NorthernBelle;
+			productName = NorthernBelle;
+			productReference = 08706FF417ECBAE500E8FA39 /* NorthernBelle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0870701417ECBAE500E8FA39 /* NorthernBelleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0870702917ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "NorthernBelleTests" */;
+			buildPhases = (
+				0870701117ECBAE500E8FA39 /* Sources */,
+				0870701217ECBAE500E8FA39 /* Frameworks */,
+				0870701317ECBAE500E8FA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0870701B17ECBAE500E8FA39 /* PBXTargetDependency */,
+			);
+			name = NorthernBelleTests;
+			productName = NorthernBelleTests;
+			productReference = 0870701517ECBAE500E8FA39 /* NorthernBelleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08706FEC17ECBAE500E8FA39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tyms;
+				TargetAttributes = {
+					0870701417ECBAE500E8FA39 = {
+						TestTargetID = 08706FF317ECBAE500E8FA39;
+					};
+				};
+			};
+			buildConfigurationList = 08706FEF17ECBAE500E8FA39 /* Build configuration list for PBXProject "NorthernBelle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08706FEB17ECBAE500E8FA39;
+			productRefGroup = 08706FF517ECBAE500E8FA39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08706FF317ECBAE500E8FA39 /* NorthernBelle */,
+				0870701417ECBAE500E8FA39 /* NorthernBelleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08706FF217ECBAE500E8FA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08306225181DF14D007BF018 /* location_icon.png in Resources */,
+				08306221181DF14D007BF018 /* afro-woman-face-200x300.png in Resources */,
+				0870703717ECC32C00E8FA39 /* henna_design_2_by_twist_of_fate_16-d4y4v42.png in Resources */,
+				0870703117ECBF2C00E8FA39 /* afro-md.png in Resources */,
+				08306222181DF14D007BF018 /* Age-Child-Female-Dark-icon.png in Resources */,
+				08306223181DF14D007BF018 /* benefits-of-massage.png in Resources */,
+				0870701017ECBAE500E8FA39 /* Images.xcassets in Resources */,
+				08A02F0317F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png in Resources */,
+				08306224181DF14D007BF018 /* calendar.png in Resources */,
+				0870703317ECC08000E8FA39 /* waves.png in Resources */,
+				08306227181DF14D007BF018 /* relax-massage.png in Resources */,
+				0870703517ECC22600E8FA39 /* sexy-legs-psd51286.png in Resources */,
+				0870700217ECBAE500E8FA39 /* InfoPlist.strings in Resources */,
+				08306218181DEC97007BF018 /* Screen Shot 2013-10-28 at 00.50.12.png in Resources */,
+				0870703017ECBF2C00E8FA39 /* 10-nail-polish-icon.png in Resources */,
+				08184FF4181F199E00C8E85D /* hair-salon-admin.png in Resources */,
+				08306228181DF14D007BF018 /* spa_and_wellness.png in Resources */,
+				0870700B17ECBAE500E8FA39 /* Main.storyboard in Resources */,
+				08306226181DF14D007BF018 /* massage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0870701317ECBAE500E8FA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0870702117ECBAE500E8FA39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08706FF017ECBAE500E8FA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0870700E17ECBAE500E8FA39 /* ViewController.m in Sources */,
+				08A02F0C17F3C4090023644E /* BookingsTViewController.m in Sources */,
+				08A02F0117F279ED0023644E /* NBTViewController.m in Sources */,
+				0870700817ECBAE500E8FA39 /* AppDelegate.m in Sources */,
+				08A02F0917F3B4530023644E /* Model.m in Sources */,
+				0870700417ECBAE500E8FA39 /* main.m in Sources */,
+				08A02F0617F3B3D30023644E /* AdminLoginViewController.m in Sources */,
+				08508DF31814C531005502B7 /* SelectServiceViewController.m in Sources */,
+				08B7247D181493D400820E0F /* MYJSONSerializer.m in Sources */,
+				08DBF2451817681A003826BD /* SingleBookingController.m in Sources */,
+				088D7B8E1818A71A00D004A1 /* HairServiceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0870701117ECBAE500E8FA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0870702317ECBAE500E8FA39 /* NorthernBelleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0870701B17ECBAE500E8FA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08706FF317ECBAE500E8FA39 /* NorthernBelle */;
+			targetProxy = 0870701A17ECBAE500E8FA39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0870700017ECBAE500E8FA39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0870700117ECBAE500E8FA39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0870700917ECBAE500E8FA39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0870700A17ECBAE500E8FA39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0870701F17ECBAE500E8FA39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0870702017ECBAE500E8FA39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0870702417ECBAE500E8FA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0870702517ECBAE500E8FA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0870702717ECBAE500E8FA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NorthernBelle/NorthernBelle-Prefix.pch";
+				INFOPLIST_FILE = "NorthernBelle/NorthernBelle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0870702817ECBAE500E8FA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NorthernBelle/NorthernBelle-Prefix.pch";
+				INFOPLIST_FILE = "NorthernBelle/NorthernBelle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0870702A17ECBAE500E8FA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NorthernBelle.app/NorthernBelle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NorthernBelle/NorthernBelle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NorthernBelleTests/NorthernBelleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0870702B17ECBAE500E8FA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NorthernBelle.app/NorthernBelle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NorthernBelle/NorthernBelle-Prefix.pch";
+				INFOPLIST_FILE = "NorthernBelleTests/NorthernBelleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08706FEF17ECBAE500E8FA39 /* Build configuration list for PBXProject "NorthernBelle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0870702417ECBAE500E8FA39 /* Debug */,
+				0870702517ECBAE500E8FA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0870702617ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "NorthernBelle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0870702717ECBAE500E8FA39 /* Debug */,
+				0870702817ECBAE500E8FA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0870702917ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "NorthernBelleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0870702A17ECBAE500E8FA39 /* Debug */,
+				0870702B17ECBAE500E8FA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08706FEC17ECBAE500E8FA39 /* Project object */;
+}
