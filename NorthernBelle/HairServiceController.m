@@ -63,8 +63,10 @@
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
+    NSString* selected;
     
-    
+    row = [pickerView selectedRowInComponent:component];
+    self.hairService = [hairServicesArray objectAtIndex:row];
 }
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
@@ -74,6 +76,7 @@
         NBTViewController *nbvc = (NBTViewController*)segue.destinationViewController;
         
         nbvc.headerText = self.navigationItem.title;
+        nbvc.hairService = self.hairService;
     }
 }
 

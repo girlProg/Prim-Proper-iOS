@@ -16,6 +16,6 @@
 @property (weak, nonatomic) IBOutlet UINavigationItem *serviceBar;
 @property (weak, nonatomic) IBOutlet UITextField *contactNumberTextfield;
 @property (nonatomic) NSString* headerText;
-
+@property (nonatomic) NSString* hairService;
 
 @end

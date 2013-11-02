@@ -70,23 +70,23 @@
 		08306220181DF14D007BF018 /* spa_and_wellness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spa_and_wellness.png; path = images/spa_and_wellness.png; sourceTree = "<group>"; };
 		08508DF11814C531005502B7 /* SelectServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectServiceViewController.h; sourceTree = "<group>"; };
 		08508DF21814C531005502B7 /* SelectServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectServiceViewController.m; sourceTree = "<group>"; };
-		08706FF417ECBAE500E8FA39 /* NorthernBelle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorthernBelle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08706FF417ECBAE500E8FA39 /* Prim&Proper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prim&Proper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08706FF717ECBAE500E8FA39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		08706FF917ECBAE500E8FA39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		08706FFB17ECBAE500E8FA39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		08706FFF17ECBAE500E8FA39 /* NorthernBelle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NorthernBelle-Info.plist"; sourceTree = "<group>"; };
+		08706FFF17ECBAE500E8FA39 /* Prim&Proper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prim&Proper-Info.plist"; sourceTree = "<group>"; };
 		0870700117ECBAE500E8FA39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0870700317ECBAE500E8FA39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0870700517ECBAE500E8FA39 /* NorthernBelle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NorthernBelle-Prefix.pch"; sourceTree = "<group>"; };
+		0870700517ECBAE500E8FA39 /* Prim&Proper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prim&Proper-Prefix.pch"; sourceTree = "<group>"; };
 		0870700617ECBAE500E8FA39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0870700717ECBAE500E8FA39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0870700A17ECBAE500E8FA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0870700C17ECBAE500E8FA39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0870700D17ECBAE500E8FA39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0870700F17ECBAE500E8FA39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0870701517ECBAE500E8FA39 /* NorthernBelleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorthernBelleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0870701517ECBAE500E8FA39 /* Prim&ProperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prim&ProperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0870701617ECBAE500E8FA39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		0870701E17ECBAE500E8FA39 /* NorthernBelleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NorthernBelleTests-Info.plist"; sourceTree = "<group>"; };
+		0870701E17ECBAE500E8FA39 /* Prim&ProperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prim&ProperTests-Info.plist"; sourceTree = "<group>"; };
 		0870702017ECBAE500E8FA39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0870702217ECBAE500E8FA39 /* NorthernBelleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NorthernBelleTests.m; sourceTree = "<group>"; };
 		0870702E17ECBF2C00E8FA39 /* 10-nail-polish-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "10-nail-polish-icon.png"; path = "images/10-nail-polish-icon.png"; sourceTree = "<group>"; };
@@ -148,8 +148,8 @@
 		08706FF517ECBAE500E8FA39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08706FF417ECBAE500E8FA39 /* NorthernBelle.app */,
-				0870701517ECBAE500E8FA39 /* NorthernBelleTests.xctest */,
+				08706FF417ECBAE500E8FA39 /* Prim&Proper.app */,
+				0870701517ECBAE500E8FA39 /* Prim&ProperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,7 +177,6 @@
 				0870700617ECBAE500E8FA39 /* AppDelegate.h */,
 				0870700717ECBAE500E8FA39 /* AppDelegate.m */,
 				0870700917ECBAE500E8FA39 /* Main.storyboard */,
-				08184FF3181F199E00C8E85D /* hair-salon-admin.png */,
 				08A02F0417F3B3D30023644E /* AdminLoginViewController.h */,
 				08A02F0517F3B3D30023644E /* AdminLoginViewController.m */,
 				08A02F0717F3B4530023644E /* Model.h */,
@@ -199,6 +198,7 @@
 		08706FFE17ECBAE500E8FA39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08184FF3181F199E00C8E85D /* hair-salon-admin.png */,
 				08A02F0217F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png */,
 				08306219181DF14D007BF018 /* afro-woman-face-200x300.png */,
 				0830621A181DF14D007BF018 /* Age-Child-Female-Dark-icon.png */,
@@ -214,10 +214,10 @@
 				0870703217ECC08000E8FA39 /* waves.png */,
 				0870702E17ECBF2C00E8FA39 /* 10-nail-polish-icon.png */,
 				0870702F17ECBF2C00E8FA39 /* afro-md.png */,
-				08706FFF17ECBAE500E8FA39 /* NorthernBelle-Info.plist */,
+				08706FFF17ECBAE500E8FA39 /* Prim&Proper-Info.plist */,
 				0870700017ECBAE500E8FA39 /* InfoPlist.strings */,
 				0870700317ECBAE500E8FA39 /* main.m */,
-				0870700517ECBAE500E8FA39 /* NorthernBelle-Prefix.pch */,
+				0870700517ECBAE500E8FA39 /* Prim&Proper-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -234,7 +234,7 @@
 		0870701D17ECBAE500E8FA39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0870701E17ECBAE500E8FA39 /* NorthernBelleTests-Info.plist */,
+				0870701E17ECBAE500E8FA39 /* Prim&ProperTests-Info.plist */,
 				0870701F17ECBAE500E8FA39 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -243,9 +243,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08706FF317ECBAE500E8FA39 /* NorthernBelle */ = {
+		08706FF317ECBAE500E8FA39 /* Prim&Proper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0870702617ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "NorthernBelle" */;
+			buildConfigurationList = 0870702617ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "Prim&Proper" */;
 			buildPhases = (
 				08706FF017ECBAE500E8FA39 /* Sources */,
 				08706FF117ECBAE500E8FA39 /* Frameworks */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = NorthernBelle;
+			name = "Prim&Proper";
 			productName = NorthernBelle;
-			productReference = 08706FF417ECBAE500E8FA39 /* NorthernBelle.app */;
+			productReference = 08706FF417ECBAE500E8FA39 /* Prim&Proper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0870701417ECBAE500E8FA39 /* NorthernBelleTests */ = {
+		0870701417ECBAE500E8FA39 /* Prim&ProperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0870702917ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "NorthernBelleTests" */;
+			buildConfigurationList = 0870702917ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "Prim&ProperTests" */;
 			buildPhases = (
 				0870701117ECBAE500E8FA39 /* Sources */,
 				0870701217ECBAE500E8FA39 /* Frameworks */,
@@ -273,9 +273,9 @@
 			dependencies = (
 				0870701B17ECBAE500E8FA39 /* PBXTargetDependency */,
 			);
-			name = NorthernBelleTests;
+			name = "Prim&ProperTests";
 			productName = NorthernBelleTests;
-			productReference = 0870701517ECBAE500E8FA39 /* NorthernBelleTests.xctest */;
+			productReference = 0870701517ECBAE500E8FA39 /* Prim&ProperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -287,12 +287,15 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = tyms;
 				TargetAttributes = {
+					08706FF317ECBAE500E8FA39 = {
+						DevelopmentTeam = 2DW3755TFW;
+					};
 					0870701417ECBAE500E8FA39 = {
 						TestTargetID = 08706FF317ECBAE500E8FA39;
 					};
 				};
 			};
-			buildConfigurationList = 08706FEF17ECBAE500E8FA39 /* Build configuration list for PBXProject "NorthernBelle" */;
+			buildConfigurationList = 08706FEF17ECBAE500E8FA39 /* Build configuration list for PBXProject "Prim&Proper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -305,8 +308,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08706FF317ECBAE500E8FA39 /* NorthernBelle */,
-				0870701417ECBAE500E8FA39 /* NorthernBelleTests */,
+				08706FF317ECBAE500E8FA39 /* Prim&Proper */,
+				0870701417ECBAE500E8FA39 /* Prim&ProperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -380,7 +383,7 @@
 /* Begin PBXTargetDependency section */
 		0870701B17ECBAE500E8FA39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 08706FF317ECBAE500E8FA39 /* NorthernBelle */;
+			target = 08706FF317ECBAE500E8FA39 /* Prim&Proper */;
 			targetProxy = 0870701A17ECBAE500E8FA39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -490,10 +493,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NorthernBelle/NorthernBelle-Prefix.pch";
-				INFOPLIST_FILE = "NorthernBelle/NorthernBelle-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NorthernBelle/Prim&Proper-Prefix.pch";
+				INFOPLIST_FILE = "NorthernBelle/Prim&Proper-Info.plist";
+				PRODUCT_NAME = "Prim&Proper";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -504,10 +508,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NorthernBelle/NorthernBelle-Prefix.pch";
-				INFOPLIST_FILE = "NorthernBelle/NorthernBelle-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "NorthernBelle/Prim&Proper-Prefix.pch";
+				INFOPLIST_FILE = "NorthernBelle/Prim&Proper-Info.plist";
+				PRODUCT_NAME = "Prim&Proper";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -529,8 +534,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NorthernBelleTests/NorthernBelleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "NorthernBelleTests/Prim&ProperTests-Info.plist";
+				PRODUCT_NAME = "Prim&ProperTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -548,8 +553,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NorthernBelle/NorthernBelle-Prefix.pch";
-				INFOPLIST_FILE = "NorthernBelleTests/NorthernBelleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "NorthernBelleTests/Prim&ProperTests-Info.plist";
+				PRODUCT_NAME = "Prim&ProperTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -558,7 +563,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08706FEF17ECBAE500E8FA39 /* Build configuration list for PBXProject "NorthernBelle" */ = {
+		08706FEF17ECBAE500E8FA39 /* Build configuration list for PBXProject "Prim&Proper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0870702417ECBAE500E8FA39 /* Debug */,
@@ -567,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0870702617ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "NorthernBelle" */ = {
+		0870702617ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "Prim&Proper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0870702717ECBAE500E8FA39 /* Debug */,
@@ -576,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0870702917ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "NorthernBelleTests" */ = {
+		0870702917ECBAE500E8FA39 /* Build configuration list for PBXNativeTarget "Prim&ProperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0870702A17ECBAE500E8FA39 /* Debug */,

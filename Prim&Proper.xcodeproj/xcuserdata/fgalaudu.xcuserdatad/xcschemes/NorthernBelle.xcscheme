@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "08706FF317ECBAE500E8FA39"
                BuildableName = "NorthernBelle.app"
-               BlueprintName = "NorthernBelle"
-               ReferencedContainer = "container:NorthernBelle.xcodeproj">
+               BlueprintName = "Prim&amp;Proper"
+               ReferencedContainer = "container:Prim&amp;Proper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0870701417ECBAE500E8FA39"
                BuildableName = "NorthernBelleTests.xctest"
-               BlueprintName = "NorthernBelleTests"
-               ReferencedContainer = "container:NorthernBelle.xcodeproj">
+               BlueprintName = "Prim&amp;ProperTests"
+               ReferencedContainer = "container:Prim&amp;Proper.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08706FF317ECBAE500E8FA39"
             BuildableName = "NorthernBelle.app"
-            BlueprintName = "NorthernBelle"
-            ReferencedContainer = "container:NorthernBelle.xcodeproj">
+            BlueprintName = "Prim&amp;Proper"
+            ReferencedContainer = "container:Prim&amp;Proper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08706FF317ECBAE500E8FA39"
             BuildableName = "NorthernBelle.app"
-            BlueprintName = "NorthernBelle"
-            ReferencedContainer = "container:NorthernBelle.xcodeproj">
+            BlueprintName = "Prim&amp;Proper"
+            ReferencedContainer = "container:Prim&amp;Proper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08706FF317ECBAE500E8FA39"
             BuildableName = "NorthernBelle.app"
-            BlueprintName = "NorthernBelle"
-            ReferencedContainer = "container:NorthernBelle.xcodeproj">
+            BlueprintName = "Prim&amp;Proper"
+            ReferencedContainer = "container:Prim&amp;Proper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

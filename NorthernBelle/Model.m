@@ -16,7 +16,8 @@
     NSString *un = username;
     NSString *pw = password;
     
-    NSURL *url = [NSURL URLWithString:@"http://localhost:10080/login"];
+    //NSURL *url = [NSURL URLWithString:@"http://localhost:10080/login"];
+    NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/login"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     NSDictionary *params = [[NSDictionary alloc]
@@ -31,7 +32,8 @@
 
 -(NSArray*)getAllBookings
 {
-    NSURL *url = [NSURL URLWithString:@"http://localhost:10080/getAllBookings"];
+    //NSURL *url = [NSURL URLWithString:@"http://localhost:10080/getAllBookings"];
+    NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/getAllBookings"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     NSDictionary *params = [[NSDictionary alloc]
                             initWithObjectsAndKeys:nil];
@@ -58,7 +60,9 @@
     NSString *stringFromDate = [formatter stringFromDate:bookingDate];    // ---------------------------------------------
     // usage
     
-    NSURL *url = [NSURL URLWithString:@"http://localhost:10080/makeBooking"];
+    //NSURL *url = [NSURL URLWithString:@"http://localhost:10080/makeBooking"];
+    NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/makeBooking"];
+
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     NSDictionary *params = [[NSDictionary alloc]

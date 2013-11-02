@@ -20,6 +20,7 @@
 @synthesize bookingTime;
 @synthesize contactNumberTextfield;
 @synthesize headerText;
+@synthesize hairService;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
