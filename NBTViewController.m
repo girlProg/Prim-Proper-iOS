@@ -63,9 +63,15 @@
         [dialog show];
     }
     else{
-    
-    Model *m = [[Model alloc]init];
-    NSString *serverResponse = [m makeBooking:cn service:serv dateAndTime:bt contactNumber:num];
+        NSString *serverResponse;
+        Model *m = [[Model alloc]init];
+        if (self.hairService != nil){
+            NSString* longService = [serv stringByAppendingString:self.hairService];
+            serverResponse = [m makeBooking:cn service:longService dateAndTime:bt contactNumber:num];
+        }else{
+            serverResponse = [m makeBooking:cn service:serv dateAndTime:bt contactNumber:num];
+        }
+    //NSString *serverResponse = [m makeBooking:cn service:longService dateAndTime:bt contactNumber:num];
     dialog = [[UIAlertView alloc] initWithTitle:@"Prim&Proper \n"
                                                      message:[serverResponse stringByReplacingOccurrencesOfString:@"\""withString:@""]                                                    delegate:self
                                            cancelButtonTitle:@"Cancel"

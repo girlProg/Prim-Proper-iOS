@@ -123,19 +123,19 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Facial" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bXp-QM-IhV">
-                                                    <rect key="frame" x="116" y="0.0" width="169" height="129"/>
+                                                    <rect key="frame" x="189" y="0.0" width="96" height="129"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="afro-woman-face-200x300.png" id="vLT-a5-kKb">
-                                                    <rect key="frame" x="15" y="0.0" width="86" height="129"/>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Screen Shot 2013-09-13 at 02.57.13.png" id="vLT-a5-kKb">
+                                                    <rect key="frame" x="15" y="0.0" width="159" height="129"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.058823533356189728" green="0.87058830261230469" blue="0.86274516582489014" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="backgroundColor" red="0.99215692281723022" green="0.9960784912109375" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
                                         <connections>
                                             <segue destination="WE3-IC-CvN" kind="push" identifier="makeBookingSegue" id="Awz-Fo-6CO"/>
                                         </connections>
@@ -160,7 +160,7 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.68627452850341797" green="0.76862752437591553" blue="0.078431375324726105" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="backgroundColor" red="0.81960791349411011" green="0.93333339691162109" blue="0.70588237047195435" alpha="1" colorSpace="deviceRGB"/>
                                         <connections>
                                             <segue destination="WE3-IC-CvN" kind="push" identifier="makeBookingSegue" id="Urp-ON-vYK"/>
                                         </connections>
@@ -689,7 +689,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <sections>
                             <tableViewSection id="cs0-Um-BLp">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="nJn-pX-f8p" imageView="Kpf-kI-Slc" rowHeight="139" style="IBUITableViewCellStyleDefault" id="t1h-qR-Fja">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="nJn-pX-f8p" imageView="Kpf-kI-Slc" rowHeight="139" style="IBUITableViewCellStyleDefault" id="t1h-qR-Fja">
                                         <rect key="frame" x="0.0" y="64" width="320" height="139"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="t1h-qR-Fja" id="7st-Az-Q0F">
@@ -815,13 +815,25 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <sections>
                             <tableViewSection id="FSF-AD-aLO">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xex-6l-nzf">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="seI-PP-G64" style="IBUITableViewCellStyleDefault" id="xex-6l-nzf">
                                         <rect key="frame" x="0.0" y="64" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xex-6l-nzf" id="YIT-T6-kyN">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Pictures" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="seI-PP-G64">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Egy-T7-PJO" kind="push" id="tRI-HZ-yXU"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="iNd-xK-do7">
                                         <rect key="frame" x="0.0" y="108" width="320" height="44"/>
@@ -853,13 +865,41 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             </objects>
             <point key="canvasLocation" x="-238" y="1192"/>
         </scene>
+        <!--Table View Controller - Pictures-->
+        <scene sceneID="Gh2-Hs-E7j">
+            <objects>
+                <tableViewController id="Egy-T7-PJO" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="5Wj-Wd-CFW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="u0q-GN-NJz">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="u0q-GN-NJz" id="yJa-fH-fNu">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Egy-T7-PJO" id="qY7-xf-gAs"/>
+                            <outlet property="delegate" destination="Egy-T7-PJO" id="1hU-Zr-ZAF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Pictures" id="DRG-OO-Lda"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WPN-3B-M30" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="248" y="1192"/>
+        </scene>
     </scenes>
     <resources>
         <image name="10-nail-polish-icon.png" width="512" height="512"/>
         <image name="Screen Shot 2013-09-13 at 02.57.13.png" width="358" height="291"/>
         <image name="Screen Shot 2013-10-28 at 00.50.12.png" width="208" height="257"/>
         <image name="afro-md.png" width="240" height="299"/>
-        <image name="afro-woman-face-200x300.png" width="200" height="300"/>
         <image name="benefits-of-massage.png" width="323" height="323"/>
         <image name="calendar.png" width="512" height="512"/>
         <image name="hair-salon-admin.png" width="265" height="265"/>

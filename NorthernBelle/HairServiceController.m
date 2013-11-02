@@ -31,7 +31,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.hairServicesArray = [[NSArray alloc] initWithObjects:@"Steaming", @"Wash & Blowdry", @"Yoghurt Protien Treatment", @"Relaxing", @"Dying", @"Braids", nil ];
+    self.hairServicesArray = [[NSArray alloc] initWithObjects:@"Steaming", @"Wash and Blowdry", @"Yoghurt Protien Treatment", @"Relaxing", @"Dying", @"Braids", @"Texturizing", nil ];
     [self.hairServicePicker setDataSource:self];
     self.noticeLabel.text = @"Please note all our Hair services are without the use of extensions and attachments :)";
     
@@ -63,8 +63,6 @@
 
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
-    NSString* selected;
-    
     row = [pickerView selectedRowInComponent:component];
     self.hairService = [hairServicesArray objectAtIndex:row];
 }
