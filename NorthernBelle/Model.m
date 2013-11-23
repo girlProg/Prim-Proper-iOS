@@ -7,6 +7,7 @@
 //
 
 #import "Model.h"
+#import "SingleBooking.h"
 
 @implementation Model
 
@@ -16,8 +17,8 @@
     NSString *un = username;
     NSString *pw = password;
     
-    //NSURL *url = [NSURL URLWithString:@"http://localhost:10080/login"];
-    NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/login"];
+    NSURL *url = [NSURL URLWithString:@"http://localhost:8080/login"];
+    //NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/login"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     NSDictionary *params = [[NSDictionary alloc]
@@ -32,21 +33,15 @@
 
 -(NSArray*)getAllBookings
 {
-    //NSURL *url = [NSURL URLWithString:@"http://localhost:10080/getAllBookings"];
-    NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/getAllBookings"];
+    NSURL *url = [NSURL URLWithString:@"http://localhost:8080/getAllBookings"];
+    //NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/getAllBookings"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     NSDictionary *params = [[NSDictionary alloc]
                             initWithObjectsAndKeys:nil];
     NSString *result = [self connection:request withParams:params callType:@"GET"];
-    
-    NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"]"];
-    NSArray *indBooknigs = [result componentsSeparatedByCharactersInSet:set];
-    NSMutableArray *newbookings = [[NSMutableArray alloc]init];
-    for(int i =0; i < [indBooknigs count]; i++){
-        newbookings[i] = [[[indBooknigs[i] stringByReplacingOccurrencesOfString:@"[" withString:@"" ] stringByReplacingOccurrencesOfString:@"]" withString:@""] stringByReplacingOccurrencesOfString:@"\"" withString:@""];//stringByReplacingOccurrencesOfString:@" " withString:@" "];
-        
-    }
-    return newbookings;
+    SingleBooking *s = [[SingleBooking alloc]init];
+    NSArray *allBookings = [s convertToBookings:result];
+    return allBookings;
 }
 
 -(NSString*)makeBooking :(NSString *)customerName
@@ -60,8 +55,8 @@
     NSString *stringFromDate = [formatter stringFromDate:bookingDate];    // ---------------------------------------------
     // usage
     
-    //NSURL *url = [NSURL URLWithString:@"http://localhost:10080/makeBooking"];
-    NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/makeBooking"];
+    NSURL *url = [NSURL URLWithString:@"http://localhost:8080/makeBooking"];
+    //NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/makeBooking"];
 
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     

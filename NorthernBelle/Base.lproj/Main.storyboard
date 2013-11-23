@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="VHN-4a-gLP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="VHN-4a-gLP">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Select Service View Controller - Prim&Proper-->
@@ -689,33 +689,8 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <sections>
                             <tableViewSection id="cs0-Um-BLp">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="nJn-pX-f8p" imageView="Kpf-kI-Slc" rowHeight="139" style="IBUITableViewCellStyleDefault" id="t1h-qR-Fja">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="139"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="t1h-qR-Fja" id="7st-Az-Q0F">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="138"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Make a Booking" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="117" id="nJn-pX-f8p">
-                                                    <rect key="frame" x="168" y="0.0" width="117" height="138"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="calendar.png" id="Kpf-kI-Slc">
-                                                    <rect key="frame" x="15" y="0.0" width="138" height="138"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </imageView>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.74901962280273438" green="0.39607846736907959" blue="0.90980398654937744" alpha="1" colorSpace="deviceRGB"/>
-                                        <connections>
-                                            <segue destination="0B0-c9-7Eh" kind="push" id="IXE-l1-uVO"/>
-                                        </connections>
-                                    </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="W5w-Rp-u5v" imageView="hzF-Oz-Frw" rowHeight="139" style="IBUITableViewCellStyleDefault" id="9Bn-gb-YRN">
-                                        <rect key="frame" x="0.0" y="203" width="320" height="139"/>
+                                        <rect key="frame" x="0.0" y="64" width="320" height="139"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Bn-gb-YRN" id="Fk9-rN-rg2">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="138"/>
@@ -737,6 +712,31 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                         <color key="backgroundColor" red="0.90196084976196289" green="0.48235297203063965" blue="0.91372555494308472" alpha="1" colorSpace="deviceRGB"/>
                                         <connections>
                                             <segue destination="eCc-ow-kPr" kind="push" id="NZO-dI-aWg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="nJn-pX-f8p" imageView="Kpf-kI-Slc" rowHeight="139" style="IBUITableViewCellStyleDefault" id="t1h-qR-Fja">
+                                        <rect key="frame" x="0.0" y="203" width="320" height="139"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="t1h-qR-Fja" id="7st-Az-Q0F">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="138"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Make a Booking" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="117" id="nJn-pX-f8p">
+                                                    <rect key="frame" x="168" y="0.0" width="117" height="138"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="calendar.png" id="Kpf-kI-Slc">
+                                                    <rect key="frame" x="15" y="0.0" width="138" height="138"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.74901962280273438" green="0.39607846736907959" blue="0.90980398654937744" alpha="1" colorSpace="deviceRGB"/>
+                                        <connections>
+                                            <segue destination="0B0-c9-7Eh" kind="push" id="IXE-l1-uVO"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="l8A-JZ-XDZ" imageView="dEz-zd-7sG" rowHeight="139" style="IBUITableViewCellStyleDefault" id="E0K-ag-dBd">
