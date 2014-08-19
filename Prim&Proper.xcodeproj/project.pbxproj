@@ -18,6 +18,7 @@
 		08306227181DF14D007BF018 /* relax-massage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0830621F181DF14D007BF018 /* relax-massage.png */; };
 		08306228181DF14D007BF018 /* spa_and_wellness.png in Resources */ = {isa = PBXBuildFile; fileRef = 08306220181DF14D007BF018 /* spa_and_wellness.png */; };
 		08508DF31814C531005502B7 /* SelectServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08508DF21814C531005502B7 /* SelectServiceViewController.m */; };
+		085F1884186CF6D5000754B5 /* UploadedImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085F1883186CF6D5000754B5 /* UploadedImagesViewController.m */; };
 		08706FF817ECBAE500E8FA39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08706FF717ECBAE500E8FA39 /* Foundation.framework */; };
 		08706FFA17ECBAE500E8FA39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08706FF917ECBAE500E8FA39 /* CoreGraphics.framework */; };
 		08706FFC17ECBAE500E8FA39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08706FFB17ECBAE500E8FA39 /* UIKit.framework */; };
@@ -37,7 +38,11 @@
 		0870703317ECC08000E8FA39 /* waves.png in Resources */ = {isa = PBXBuildFile; fileRef = 0870703217ECC08000E8FA39 /* waves.png */; };
 		0870703517ECC22600E8FA39 /* sexy-legs-psd51286.png in Resources */ = {isa = PBXBuildFile; fileRef = 0870703417ECC22600E8FA39 /* sexy-legs-psd51286.png */; };
 		0870703717ECC32C00E8FA39 /* henna_design_2_by_twist_of_fate_16-d4y4v42.png in Resources */ = {isa = PBXBuildFile; fileRef = 0870703617ECC32C00E8FA39 /* henna_design_2_by_twist_of_fate_16-d4y4v42.png */; };
+		088B520C185CD51200C955F3 /* SalonPictureUploaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088B520B185CD51200C955F3 /* SalonPictureUploaderController.m */; };
+		088B5210185CE03F00C955F3 /* mainIcon120b120.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B520F185CE03F00C955F3 /* mainIcon120b120.png */; };
+		088B521A185CE9CA00C955F3 /* long640b1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 088B5219185CE9CA00C955F3 /* long640b1136.png */; };
 		088D7B8E1818A71A00D004A1 /* HairServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D7B8D1818A71A00D004A1 /* HairServiceController.m */; };
+		088F2E07184034D200DA4109 /* SingleBooking.m in Sources */ = {isa = PBXBuildFile; fileRef = 088F2E06184034D200DA4109 /* SingleBooking.m */; };
 		08A02F0117F279ED0023644E /* NBTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A02F0017F279ED0023644E /* NBTViewController.m */; };
 		08A02F0317F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A02F0217F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png */; };
 		08A02F0617F3B3D30023644E /* AdminLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A02F0517F3B3D30023644E /* AdminLoginViewController.m */; };
@@ -70,6 +75,8 @@
 		08306220181DF14D007BF018 /* spa_and_wellness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spa_and_wellness.png; path = images/spa_and_wellness.png; sourceTree = "<group>"; };
 		08508DF11814C531005502B7 /* SelectServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectServiceViewController.h; sourceTree = "<group>"; };
 		08508DF21814C531005502B7 /* SelectServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectServiceViewController.m; sourceTree = "<group>"; };
+		085F1882186CF6D5000754B5 /* UploadedImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadedImagesViewController.h; sourceTree = "<group>"; };
+		085F1883186CF6D5000754B5 /* UploadedImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadedImagesViewController.m; sourceTree = "<group>"; };
 		08706FF417ECBAE500E8FA39 /* Prim&Proper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prim&Proper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08706FF717ECBAE500E8FA39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		08706FF917ECBAE500E8FA39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,8 +101,14 @@
 		0870703217ECC08000E8FA39 /* waves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = waves.png; path = images/waves.png; sourceTree = "<group>"; };
 		0870703417ECC22600E8FA39 /* sexy-legs-psd51286.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sexy-legs-psd51286.png"; path = "images/sexy-legs-psd51286.png"; sourceTree = "<group>"; };
 		0870703617ECC32C00E8FA39 /* henna_design_2_by_twist_of_fate_16-d4y4v42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "henna_design_2_by_twist_of_fate_16-d4y4v42.png"; path = "images/henna_design_2_by_twist_of_fate_16-d4y4v42.png"; sourceTree = "<group>"; };
+		088B520A185CD51200C955F3 /* SalonPictureUploaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalonPictureUploaderController.h; sourceTree = "<group>"; };
+		088B520B185CD51200C955F3 /* SalonPictureUploaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalonPictureUploaderController.m; sourceTree = "<group>"; };
+		088B520F185CE03F00C955F3 /* mainIcon120b120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainIcon120b120.png; path = images/mainIcon120b120.png; sourceTree = "<group>"; };
+		088B5219185CE9CA00C955F3 /* long640b1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = long640b1136.png; path = images/long640b1136.png; sourceTree = "<group>"; };
 		088D7B8C1818A71A00D004A1 /* HairServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HairServiceController.h; sourceTree = "<group>"; };
 		088D7B8D1818A71A00D004A1 /* HairServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HairServiceController.m; sourceTree = "<group>"; };
+		088F2E05184034D200DA4109 /* SingleBooking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleBooking.h; sourceTree = "<group>"; };
+		088F2E06184034D200DA4109 /* SingleBooking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleBooking.m; sourceTree = "<group>"; };
 		08A02EFF17F279ED0023644E /* NBTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NBTViewController.h; path = ../NBTViewController.h; sourceTree = "<group>"; };
 		08A02F0017F279ED0023644E /* NBTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NBTViewController.m; path = ../NBTViewController.m; sourceTree = "<group>"; };
 		08A02F0217F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2013-09-13 at 02.57.13.png"; path = "images/Screen Shot 2013-09-13 at 02.57.13.png"; sourceTree = "<group>"; };
@@ -177,6 +190,8 @@
 				0870700617ECBAE500E8FA39 /* AppDelegate.h */,
 				0870700717ECBAE500E8FA39 /* AppDelegate.m */,
 				0870700917ECBAE500E8FA39 /* Main.storyboard */,
+				088B520A185CD51200C955F3 /* SalonPictureUploaderController.h */,
+				088B520B185CD51200C955F3 /* SalonPictureUploaderController.m */,
 				08A02F0417F3B3D30023644E /* AdminLoginViewController.h */,
 				08A02F0517F3B3D30023644E /* AdminLoginViewController.m */,
 				08A02F0717F3B4530023644E /* Model.h */,
@@ -191,6 +206,10 @@
 				08508DF21814C531005502B7 /* SelectServiceViewController.m */,
 				08DBF2431817681A003826BD /* SingleBookingController.h */,
 				08DBF2441817681A003826BD /* SingleBookingController.m */,
+				088F2E05184034D200DA4109 /* SingleBooking.h */,
+				088F2E06184034D200DA4109 /* SingleBooking.m */,
+				085F1882186CF6D5000754B5 /* UploadedImagesViewController.h */,
+				085F1883186CF6D5000754B5 /* UploadedImagesViewController.m */,
 			);
 			path = NorthernBelle;
 			sourceTree = "<group>";
@@ -198,6 +217,8 @@
 		08706FFE17ECBAE500E8FA39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				088B5219185CE9CA00C955F3 /* long640b1136.png */,
+				088B520F185CE03F00C955F3 /* mainIcon120b120.png */,
 				08184FF3181F199E00C8E85D /* hair-salon-admin.png */,
 				08A02F0217F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png */,
 				08306219181DF14D007BF018 /* afro-woman-face-200x300.png */,
@@ -327,6 +348,7 @@
 				08306223181DF14D007BF018 /* benefits-of-massage.png in Resources */,
 				0870701017ECBAE500E8FA39 /* Images.xcassets in Resources */,
 				08A02F0317F386830023644E /* Screen Shot 2013-09-13 at 02.57.13.png in Resources */,
+				088B5210185CE03F00C955F3 /* mainIcon120b120.png in Resources */,
 				08306224181DF14D007BF018 /* calendar.png in Resources */,
 				0870703317ECC08000E8FA39 /* waves.png in Resources */,
 				08306227181DF14D007BF018 /* relax-massage.png in Resources */,
@@ -338,6 +360,7 @@
 				08306228181DF14D007BF018 /* spa_and_wellness.png in Resources */,
 				0870700B17ECBAE500E8FA39 /* Main.storyboard in Resources */,
 				08306226181DF14D007BF018 /* massage.png in Resources */,
+				088B521A185CE9CA00C955F3 /* long640b1136.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +387,10 @@
 				0870700417ECBAE500E8FA39 /* main.m in Sources */,
 				08A02F0617F3B3D30023644E /* AdminLoginViewController.m in Sources */,
 				08508DF31814C531005502B7 /* SelectServiceViewController.m in Sources */,
+				085F1884186CF6D5000754B5 /* UploadedImagesViewController.m in Sources */,
+				088B520C185CD51200C955F3 /* SalonPictureUploaderController.m in Sources */,
 				08B7247D181493D400820E0F /* MYJSONSerializer.m in Sources */,
+				088F2E07184034D200DA4109 /* SingleBooking.m in Sources */,
 				08DBF2451817681A003826BD /* SingleBookingController.m in Sources */,
 				088D7B8E1818A71A00D004A1 /* HairServiceController.m in Sources */,
 			);

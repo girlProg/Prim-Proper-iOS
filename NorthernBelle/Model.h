@@ -22,4 +22,11 @@
 
 - (NSString*)connection:(NSURLRequest *)aRequest  withParams:(NSDictionary *)aDictionary callType:(NSString *)httpCall;
 
+- (NSString*) uploadImage:(UIImage*) imageView;
+
+- (NSString*)getImages;
+
+- (UIImage *)decodeBase64ToImage:(NSString *)strEncodeData;
+
+
 @end

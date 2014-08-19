@@ -9,7 +9,20 @@
 #import "Model.h"
 #import "SingleBooking.h"
 
+
 @implementation Model
+
+-(NSString*)getImages
+{
+    NSURL *url = [NSURL URLWithString:@"http://localhost:8080/getImages"];
+    //NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/getAllBookings"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSDictionary *params = [[NSDictionary alloc]
+                            initWithObjectsAndKeys:nil];
+    NSString *serverResponse = [self connection:request withParams:params callType:@"GET"];
+    return serverResponse;
+}
+
 
 - (NSString*)loginToServer:(NSString*) username
                 password:(NSString*)password
@@ -18,7 +31,7 @@
     NSString *pw = password;
     
     NSURL *url = [NSURL URLWithString:@"http://localhost:8080/login"];
-    //NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/login"];
+    //NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/newuser"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     NSDictionary *params = [[NSDictionary alloc]
@@ -47,7 +60,7 @@
 -(NSString*)makeBooking :(NSString *)customerName
             service:(NSString *)serviceBarName
         dateAndTime:(NSDate*)bookingDate
-      contactNumber:(NSString*)contactNumber;
+      contactNumber:(NSString*)contactNumber
 {
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
@@ -108,6 +121,49 @@
          return @"ConnectionFailed";
     }
     
+}
+
+- (NSString*) uploadImage:(UIImage*) image
+{
+    UIImage *scaledImage = [self scaleImage:image toSize:CGSizeMake(320.0,480.0)];
+    NSString *imageBytes = [self encodeToBase64String:scaledImage];
+    
+    NSURL *url = [NSURL URLWithString:@"http://localhost:8080/uploadphoto"];
+    //NSURL *url = [NSURL URLWithString:@"http://figtrie.appspot.com/uploadphoto"];
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    NSDictionary *params = [[NSDictionary alloc]
+                            initWithObjectsAndKeys:
+                            imageBytes, @"photo",nil];
+    
+    NSString *serverResponse = [self connection:request withParams:params callType:@"POST"];
+    params = nil;
+    return serverResponse;
+
+    NSLog(@"%@", imageBytes);
+
+    return serverResponse;
+}
+
+- (NSString *)encodeToBase64String:(UIImage *)image {
+    return [UIImagePNGRepresentation(image) base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+    
+}
+
+- (UIImage *)decodeBase64ToImage:(NSString *)strEncodeData {
+    NSData *data = [[NSData alloc]initWithBase64EncodedString:strEncodeData options:NSDataBase64DecodingIgnoreUnknownCharacters];
+    return [UIImage imageWithData:data];
+}
+
+
+-(UIImage *)scaleImage:(UIImage *)image toSize:(CGSize)newSize
+{
+    UIGraphicsBeginImageContext(newSize);
+    [image drawInRect:CGRectMake(0, 0, newSize.width, newSize.height)];
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newImage;
 }
 
 @end

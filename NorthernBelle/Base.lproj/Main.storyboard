@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="VHN-4a-gLP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="VHN-4a-gLP">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Select Service View Controller - Prim&Proper-->
@@ -186,25 +186,25 @@
                         <sections>
                             <tableViewSection headerTitle="Contact Details" id="zyb-Ho-edv">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="384" id="tOK-dT-BU8">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="384"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="444" id="tOK-dT-BU8">
+                                        <rect key="frame" x="0.0" y="86" width="320" height="444"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tOK-dT-BU8" id="R30-Vx-r72">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="383"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="443"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mNm-za-c98">
-                                                    <rect key="frame" x="30" y="20" width="260" height="331"/>
+                                                    <rect key="frame" x="30" y="20" width="260" height="391"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
-                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This Address on That Road, Wuse Abuja" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="137" translatesAutoresizingMaskIntoConstraints="NO" id="R1f-OS-wwz">
-                                                            <rect key="frame" x="25" y="42" width="137" height="143"/>
+                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Park Hill Center, Off 1st Avenue, Gwarimpa. (The turn by FCMB, we are behind Yahuza)" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="166" translatesAutoresizingMaskIntoConstraints="NO" id="R1f-OS-wwz">
+                                                            <rect key="frame" x="25" y="42" width="166" height="143"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="18"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="080-PRIMA-PROPER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dat-lA-XEa">
-                                                            <rect key="frame" x="25" y="214" width="195" height="21"/>
+                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Call us on:    08092650874 08181822773" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="195" translatesAutoresizingMaskIntoConstraints="NO" id="dat-lA-XEa">
+                                                            <rect key="frame" x="20" y="229" width="195" height="87"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="highlightedColor"/>
@@ -212,24 +212,6 @@
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.8980392814" green="0.7607843876" blue="0.94117653369999998" alpha="1" colorSpace="deviceRGB"/>
                                                 </scrollView>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                            <tableViewSection headerTitle="MapView" id="eTN-Ry-fZH">
-                                <cells>
-                                    <tableViewCell contentMode="scaleAspectFit" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="429" id="oPR-Wz-q6j">
-                                        <rect key="frame" x="0.0" y="492" width="320" height="429"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oPR-Wz-q6j" id="ND4-zE-ANS">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="428"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2013-10-28 at 00.50.12.png" translatesAutoresizingMaskIntoConstraints="NO" id="CtL-Ud-BgT">
-                                                    <rect key="frame" x="41" y="-39" width="238" height="428"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -421,15 +403,15 @@
                                             <segue destination="HrI-z3-bCe" kind="push" id="urc-UG-AWx"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Xh8-G6-vOy" rowHeight="134" style="IBUITableViewCellStyleDefault" id="uvv-5B-TxX">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Xh8-G6-vOy" rowHeight="134" style="IBUITableViewCellStyleDefault" id="uvv-5B-TxX">
                                         <rect key="frame" x="0.0" y="198" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uvv-5B-TxX" id="5Ra-10-H6J">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="133"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Upload Salon Pictures (Coming Soon!)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" id="Xh8-G6-vOy">
-                                                    <rect key="frame" x="15" y="0.0" width="290" height="133"/>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Upload Salon Pictures (Coming Soon!)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="270" id="Xh8-G6-vOy">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="133"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -438,6 +420,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.92941182851791382" green="0.94509810209274292" blue="0.77647066116333008" alpha="1" colorSpace="deviceRGB"/>
+                                        <connections>
+                                            <segue destination="tev-Mh-nfa" kind="push" id="Efj-Aw-Ize"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="slD-Xs-hVE" rowHeight="134" style="IBUITableViewCellStyleDefault" id="clZ-eP-SwG">
                                         <rect key="frame" x="0.0" y="332" width="320" height="134"/>
@@ -511,6 +496,67 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ekz-dH-eyJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1026" y="416"/>
+        </scene>
+        <!--Salon Picture Uploader Controller-->
+        <scene sceneID="qHq-MY-PV5">
+            <objects>
+                <viewController id="tev-Mh-nfa" customClass="SalonPictureUploaderController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ted-fj-RmG"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jka-1Z-dec"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LBm-XS-wtg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSe-Ra-x6X">
+                                <rect key="frame" x="20" y="456" width="138" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Gallery">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectPhoto:" destination="tev-Mh-nfa" eventType="touchUpInside" id="7OH-Jh-JUP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIt-fe-Y1s">
+                                <rect key="frame" x="162" y="456" width="138" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Camera">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="tev-Mh-nfa" eventType="touchUpInside" id="OCE-1W-pxy"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u8z-Ph-O2p">
+                                <rect key="frame" x="20" y="93" width="280" height="337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xXT-bK-oer">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="pkm-Cd-N6O">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="htx-KC-7Kf">
+                                <rect key="frame" x="225" y="5" width="79" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Upload">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="uploadPhoto:" destination="tev-Mh-nfa" eventType="touchUpInside" id="WHa-pN-gWQ"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="u8z-Ph-O2p" id="n1a-ud-ESk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FM5-AE-8or" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1016" y="1106"/>
         </scene>
         <!--Single Booking Controller - Prim&Proper-->
         <scene sceneID="XJC-uF-ejt">
@@ -790,6 +836,55 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             <segue destination="TLl-Ik-QZx" kind="push" id="erL-Dz-ZoY"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="CTi-zE-e8G" detailTextLabel="4Be-Bq-dwV" rowHeight="33" style="IBUITableViewCellStyleSubtitle" id="JL4-Lf-cLJ">
+                                        <rect key="frame" x="0.0" y="620" width="320" height="33"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JL4-Lf-cLJ" id="9RQ-3g-ja8">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="32"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Developed by " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CTi-zE-e8G">
+                                                    <rect key="frame" x="15" y="3" width="75" height="14"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.043137256056070328" green="0.85098046064376831" blue="0.97254908084869385" alpha="1" colorSpace="deviceRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Fatima Galaudu Ⓒ " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Be-Bq-dwV">
+                                                    <rect key="frame" x="15" y="17" width="90" height="12"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <color key="textColor" red="0.039215687662363052" green="0.85098046064376831" blue="0.97647064924240112" alpha="1" colorSpace="deviceRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="tintColor" red="0.023529414089999999" green="0.96470594409999999" blue="0.74509805439999999" alpha="1" colorSpace="deviceRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.082352943720000002" green="0.02745098248" blue="0.019607843829999999" alpha="1" colorSpace="deviceRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="hqh-21-zSI" imageView="JWt-VC-nuP" rowHeight="245" style="IBUITableViewCellStyleDefault" id="Yk4-5D-kXL">
+                                        <rect key="frame" x="0.0" y="653" width="320" height="245"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yk4-5D-kXL" id="1eJ-A7-4jc">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="244"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Admin" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hqh-21-zSI">
+                                                    <rect key="frame" x="274" y="0.0" width="11" height="244"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" red="0.57254904510000004" green="0.20000001789999999" blue="0.92549026010000002" alpha="1" colorSpace="deviceRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="hair-salon-admin.png" id="JWt-VC-nuP">
+                                                    <rect key="frame" x="15" y="0.0" width="244" height="244"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="tintColor" red="0.023529414089999999" green="0.96470594409999999" blue="0.74509805439999999" alpha="1" colorSpace="deviceRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.082352943720000002" green="0.02745098248" blue="0.019607843829999999" alpha="1" colorSpace="deviceRGB"/>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -863,23 +958,29 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9p-gT-UdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-238" y="1192"/>
+            <point key="canvasLocation" x="-232" y="2008"/>
         </scene>
-        <!--Table View Controller - Pictures-->
+        <!--Uploaded Images View Controller - Pictures-->
         <scene sceneID="Gh2-Hs-E7j">
             <objects>
-                <tableViewController id="Egy-T7-PJO" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="5Wj-Wd-CFW">
+                <tableViewController id="Egy-T7-PJO" customClass="UploadedImagesViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="359" sectionHeaderHeight="22" sectionFooterHeight="22" id="5Wj-Wd-CFW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="u0q-GN-NJz">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="359" id="u0q-GN-NJz">
+                                <rect key="frame" x="0.0" y="86" width="320" height="359"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="u0q-GN-NJz" id="yJa-fH-fNu">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="358"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YgH-he-YO6">
+                                            <rect key="frame" x="16" y="20" width="288" height="320"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -889,16 +990,18 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Pictures" id="DRG-OO-Lda"/>
+                    <connections>
+                        <outlet property="imagePlaceholder" destination="YgH-he-YO6" id="UQk-Tb-zg1"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WPN-3B-M30" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="248" y="1192"/>
+            <point key="canvasLocation" x="336" y="1976"/>
         </scene>
     </scenes>
     <resources>
         <image name="10-nail-polish-icon.png" width="512" height="512"/>
         <image name="Screen Shot 2013-09-13 at 02.57.13.png" width="358" height="291"/>
-        <image name="Screen Shot 2013-10-28 at 00.50.12.png" width="208" height="257"/>
         <image name="afro-md.png" width="240" height="299"/>
         <image name="benefits-of-massage.png" width="323" height="323"/>
         <image name="calendar.png" width="512" height="512"/>

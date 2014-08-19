@@ -19,7 +19,7 @@
     NSMutableArray *newbookings = [[NSMutableArray alloc]init];
     
     for(int i =0; i < [indBooknigs count]; i++){
-        newbookings[i] = [[[indBooknigs[i] stringByReplacingOccurrencesOfString:@"[" withString:@"" ] stringByReplacingOccurrencesOfString:@"]" withString:@""] stringByReplacingOccurrencesOfString:@"\"" withString:@""];//stringByReplacingOccurrencesOfString:@" " withString:@" "];
+        newbookings[i] = [[[[indBooknigs[i] stringByReplacingOccurrencesOfString:@"[" withString:@"" ] stringByReplacingOccurrencesOfString:@"]" withString:@""] stringByReplacingOccurrencesOfString:@"\"" withString:@""]stringByReplacingOccurrencesOfString:@"*\r\n*" withString:@""];
         
     }
     return newbookings;

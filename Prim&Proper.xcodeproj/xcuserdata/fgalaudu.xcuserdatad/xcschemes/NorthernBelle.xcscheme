@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "08706FF317ECBAE500E8FA39"
-               BuildableName = "NorthernBelle.app"
+               BuildableName = "Prim&amp;Proper.app"
                BlueprintName = "Prim&amp;Proper"
                ReferencedContainer = "container:Prim&amp;Proper.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0870701417ECBAE500E8FA39"
-               BuildableName = "NorthernBelleTests.xctest"
+               BuildableName = "Prim&amp;ProperTests.xctest"
                BlueprintName = "Prim&amp;ProperTests"
                ReferencedContainer = "container:Prim&amp;Proper.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08706FF317ECBAE500E8FA39"
-            BuildableName = "NorthernBelle.app"
+            BuildableName = "Prim&amp;Proper.app"
             BlueprintName = "Prim&amp;Proper"
             ReferencedContainer = "container:Prim&amp;Proper.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08706FF317ECBAE500E8FA39"
-            BuildableName = "NorthernBelle.app"
+            BuildableName = "Prim&amp;Proper.app"
             BlueprintName = "Prim&amp;Proper"
             ReferencedContainer = "container:Prim&amp;Proper.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "08706FF317ECBAE500E8FA39"
-            BuildableName = "NorthernBelle.app"
+            BuildableName = "Prim&amp;Proper.app"
             BlueprintName = "Prim&amp;Proper"
             ReferencedContainer = "container:Prim&amp;Proper.xcodeproj">
          </BuildableReference>
